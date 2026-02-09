@@ -12,5 +12,9 @@ def is_password_valid(password):
         if char.isspace():
             has_space = True
     return has_upper and has_digit and not has_space
+
+print(is_password_valid("Password123"))  
+print(is_password_valid("password"))  
+print(is_password_valid("Pass 123"))    
      
           
